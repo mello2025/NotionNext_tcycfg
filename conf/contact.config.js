@@ -3,7 +3,7 @@
  */
 module.exports = {
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL:
+  CONTACT_EMAIL:chwang@tcycfg.com
     (process.env.NEXT_PUBLIC_CONTACT_EMAIL &&
       btoa(
         unescape(encodeURIComponent(process.env.NEXT_PUBLIC_CONTACT_EMAIL))
