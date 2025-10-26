@@ -8,7 +8,7 @@ const Style = () => {
   return <style jsx global>{`
     // 底色
     body{
-        background-color: #eeedee;
+        background-color: #33FFFF;
     }
     .dark body{
         background-color: black;
