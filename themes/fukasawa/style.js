@@ -24,7 +24,7 @@ const Style = () => {
     /* 大屏幕（宽度≥1024px）下显示3列 */
     @media (min-width: 1024px) {
         #theme-fukasawa .grid-container {
-        column-count: 3;
+        column-count: 4;
         column-gap: .5rem;
         }
     }
