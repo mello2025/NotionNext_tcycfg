@@ -13,7 +13,7 @@ const BlogListScroll = ({ posts }) => {
   const [hasMore, setHasMore] = useState(true);
 
   // 每页显示的文章数量 - 增加到合适数量
-  const postsPerPage = POSTS_PER_PAGE || 12; // 默认12篇，可以调整
+  const postsPerPage = POSTS_PER_PAGE || 24; // 默认12篇，可以调整
 
   // 计算总页数
   const totalPages = Math.ceil(posts.length / postsPerPage);
